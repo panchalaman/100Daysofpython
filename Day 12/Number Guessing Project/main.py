@@ -1,11 +1,14 @@
 import random
+
 from art import logo
+
+
 def game():
     print(logo)
     print("I have chosen a number between 1 and 100, it's your time to guess now!")
     COM_NUM = random.choice(range(1, 100))
 
-    def compare(num1, COM_NUM ):
+    def compare(num1, COM_NUM):
         if num1 == COM_NUM:
             print(f"Computer number: {COM_NUM}, YOU WIN!")
             return True
@@ -15,6 +18,7 @@ def game():
         else:
             print("Too Low")
             return False
+
     def guess_loop(num):
         should_continue = True
         while should_continue:
@@ -36,7 +40,9 @@ def game():
     else:
         attempt = 10
         guess_loop(attempt)
+
+
 game()
-while input("Do you want to play again 'y' or 'n'")== "y":
-    print("\n"* 30)
+while input("Do you want to play again 'y' or 'n'") == "y":
+    print("\n" * 30)
     game()

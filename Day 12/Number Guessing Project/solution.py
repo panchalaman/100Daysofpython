@@ -1,7 +1,6 @@
 from random import randint
 from art import logo
 
-
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
@@ -53,8 +52,4 @@ def game():
             print("Guess again.")
 
 
-
-
 game()
-
-
