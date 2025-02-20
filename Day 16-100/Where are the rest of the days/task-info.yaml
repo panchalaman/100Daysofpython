@@ -6,6 +6,36 @@ files:
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+  - name: OOP Coffee Machine Start/.idea/inspectionProfiles/profiles_settings.xml
+    visible: true
+    learner_created: true
+  - name: OOP Coffee Machine Start/main.py
+    visible: true
+    learner_created: true
+  - name: OOP Coffee Machine Start/menu.py
+    visible: true
+    learner_created: true
+  - name: OOP Coffee Machine Start/coffee_maker.py
+    visible: true
+    learner_created: true
+  - name: OOP Coffee Machine Start/money_machine.py
+    visible: true
+    learner_created: true
+  - name: Quiz Game (OOP)/.idea/inspectionProfiles/profiles_settings.xml
+    visible: true
+    learner_created: true
+  - name: Quiz Game (OOP)/data.py
+    visible: true
+    learner_created: true
+  - name: Quiz Game (OOP)/main.py
+    visible: true
+    learner_created: true
+  - name: Quiz Game (OOP)/quiz_brain.py
+    visible: true
+    learner_created: true
+  - name: Quiz Game (OOP)/question_model.py
+    visible: true
+    learner_created: true
+status: Solved
 record: -1
 post_submission_on_open: true
